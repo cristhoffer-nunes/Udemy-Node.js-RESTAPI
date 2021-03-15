@@ -1,0 +1,14 @@
+### acessando via GET 
+GET http://localhost:3000/subscribers 
+### POST adicionando ao arquivo 
+POST http://localhost:3000/subscribers Content-Type: application/json
+
+{
+    "userName": "Cristhoffer Nunes",
+    "userChannel": "hCode"
+}
+### GET com ID
+GET http://localhost:3000/subscribers/604ee1154e18821cc8039a32
+### DELETE 
+DELETE http://localhost:3000/subscribers/604ee1154e18821cc8039a32
+
